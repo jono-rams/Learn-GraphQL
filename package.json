@@ -1,0 +1,29 @@
+{
+  "name": "learn-graphql",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "api",
+    "graphql"
+  ],
+  "homepage": "https://github.com/jono-rams/Learn-GraphQL#readme",
+  "bugs": {
+    "url": "https://github.com/jono-rams/Learn-GraphQL/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jono-rams/Learn-GraphQL.git"
+  },
+  "license": "GPL-3.0",
+  "author": "Jonathan Rampersad",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.11.3",
+    "@as-integrations/cloudflare-workers": "^1.0.2",
+    "graphql": "^16.10.0"
+  }
+}
